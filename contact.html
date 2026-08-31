@@ -1,10 +1,16 @@
-```html
 <!doctype html>
+
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta
+name="description"
+content="Contact J & P Handyman Services for reliable handyman services in Central Jersey."
+
+>
 
   <title>Contact | J & P Handyman Services</title>
 
@@ -15,25 +21,53 @@
 
 <header class="site-header">
 
+  <!-- HAMBURGER MENU -->
+
+<button
+class="menu-toggle"
+id="menuToggle"
+type="button"
+aria-label="Open menu"
+aria-expanded="false"
+
+>
+
+<span></span>
+<span></span>
+<span></span>
+
+  </button>
+
+  <!-- CENTERED LOGO -->
+
   <a class="brand" href="index.html">
-    <img src="images/J and P logo.png" alt="J & P Handyman Services logo">
-    >
+
+```
+<img
+  src="images/J and P logo.png"
+  alt="J & P Handyman Services logo"
+>
+```
+
   </a>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="contact.html">Contact</a>
+  <!-- MENU -->
+
+  <nav class="main-menu" id="mainMenu">
+
+  <a href="index.html">Home</a>
+
+  <a href="about.html">About</a>
+
+  <a href="faq.html">FAQ</a>
+
+  <a href="services.html">Services</a>
+
+  <a href="contact.html">Contact</a>
+
   </nav>
 
-  <a class="phone" href="tel:6092408021">
-    ☎ 609-240-8021
-  </a>
-
 </header>
-
 
 <!-- CONTACT HERO -->
 
@@ -44,22 +78,23 @@
 
   <div class="page-hero-inner">
 
-    <div class="eyebrow">
-      LET'S GET STARTED
-    </div>
+<div class="eyebrow">
+  LET'S GET STARTED
+</div>
 
-    <h1>
-      Request Your Quote
-    </h1>
+<h1>
+  Request Your Quote
+</h1>
 
-    <p>
-      Tell us about your project and we'll review the details and contact you within 48 hours.
-    </p>
+<p>
+  Tell us about your project and we'll review the details
+  and contact you within 48 hours.
+</p>
+```
 
   </div>
 
 </section>
-
 
 <!-- CONTACT SECTION -->
 
@@ -67,254 +102,63 @@
 
   <div class="section-inner">
 
-    <div class="contact-wrap">
+```
+<div class="contact-wrap">
 
 
-      <!-- CONTACT INFORMATION -->
+  <!-- CONTACT INFORMATION -->
 
-      <div class="contact-card">
+  <div class="contact-card">
 
-        <h2>
-          Let's Talk About Your Project
-        </h2>
+    <h2>
+      Let's Talk About Your Project
+    </h2>
 
-        <p>
-          Whether you need a repair, installation, maintenance,
-          or home improvement, tell us what you need and we'll
-          take it from there.
-        </p>
-
-
-        <div class="contact-details">
-
-          <div class="detail">
-            <strong>Phone</strong><br>
-            <a href="tel:6092408021">
-              609-240-8021
-            </a>
-          </div>
+    <p>
+      Whether you need a repair, installation, maintenance,
+      or home improvement, tell us what you need and we'll
+      take it from there.
+    </p>
 
 
-          <div class="detail">
-            <strong>Email</strong><br>
-            <a href="mailto:jandphandymanservices@yahoo.com">
-              jandphandymanservices@yahoo.com
-            </a>
-          </div>
+    <div class="contact-details">
 
+      <div class="detail">
 
-          <div class="detail">
-            <strong>Service Area</strong><br>
-            Central Jersey and surrounding areas
-          </div>
+        <strong>Phone</strong><br>
 
-
-          <div class="detail">
-            <strong>Response Time</strong><br>
-            We'll review your request and contact you within 48 hours.
-          </div>
-
-        </div>
+        <a href="tel:6092408021">
+          609-240-8021
+        </a>
 
       </div>
 
 
-      <!-- QUOTE FORM -->
+      <div class="detail">
 
-      <div class="contact-card">
+        <strong>Email</strong><br>
 
-        <h2>
-          Request a Quote
-        </h2>
+        <a href="mailto:jandphandymanservices@yahoo.com">
+          jandphandymanservices@yahoo.com
+        </a>
 
-        <p>
-          Give us as much information as possible so we can better
-          understand your project.
-        </p>
+      </div>
 
 
-        <form
-          action="https://formsubmit.co/jandphandymanservices@yahoo.com"
-          method="POST"
-        >
+      <div class="detail">
+
+        <strong>Service Area</strong><br>
+
+        Central Jersey and surrounding areas
+
+      </div>
 
 
-          <!-- FORM SETTINGS -->
+      <div class="detail">
 
-          <input
-            type="hidden"
-            name="_subject"
-            value="New J & P Handyman Quote Request"
-          >
+        <strong>Response Time</strong><br>
 
-          <input
-            type="hidden"
-            name="_captcha"
-            value="false"
-          >
-
-          <input
-            type="hidden"
-            name="_template"
-            value="table"
-          >
-
-          <input
-            type="hidden"
-            name="_next"
-            value="https://whatisthetruthrudy-jfk.github.io/JP-Handyman-Website/thank-you.html"
-          >
-
-          <!-- AUTOMATIC CUSTOMER EMAIL -->
-
-          <input
-            type="hidden"
-            name="_autoresponse"
-            value="Thank you for contacting J & P Handyman Services! We received your project request and appreciate the opportunity to help. We will review your request and contact you within 48 hours to discuss your project and next steps. If you need immediate assistance, please call 609-240-8021."
-          >
-
-
-          <!-- CUSTOMER NAME -->
-
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Name"
-            required
-          >
-
-
-          <!-- PHONE -->
-
-          <input
-            type="tel"
-            name="phone"
-            placeholder="Phone Number"
-            required
-          >
-
-
-          <!-- EMAIL -->
-
-          <input
-            type="email"
-            name="email"
-            placeholder="Email Address"
-            required
-          >
-
-
-          <!-- PROJECT LOCATION -->
-
-          <input
-            type="text"
-            name="location"
-            placeholder="Project Address or Town"
-            required
-          >
-
-
-          <!-- SERVICE -->
-
-          <select
-            name="service"
-            required
-          >
-
-            <option value="">
-              What service do you need?
-            </option>
-
-            <option>
-              Toilet Repair & Replacement
-            </option>
-
-            <option>
-              Faucet Repair & Replacement
-            </option>
-
-            <option>
-              Drain Cleaning
-            </option>
-
-            <option>
-              Light Fixture Replacement
-            </option>
-
-            <option>
-              Outlet & Switch Replacement
-            </option>
-
-            <option>
-              Sheetrock Repair
-            </option>
-
-            <option>
-              Interior Painting
-            </option>
-
-            <option>
-              Tub & Shower Caulking
-            </option>
-
-            <option>
-              Blinds & Curtain Installation
-            </option>
-
-            <option>
-              Furniture Assembly
-            </option>
-
-            <option>
-              Appliance Repair
-            </option>
-
-            <option>
-              TV Installation
-            </option>
-
-            <option>
-              Dryer Vent Cleaning
-            </option>
-
-            <option>
-              Power Washing
-            </option>
-
-            <option>
-              Other
-            </option>
-
-          </select>
-
-
-          <!-- PROJECT DESCRIPTION -->
-
-          <textarea
-            name="project"
-            placeholder="Tell us about your project. Include the problem, what you would like done, and any other helpful details."
-            required
-          ></textarea>
-
-
-          <!-- SUBMIT -->
-
-          <button
-            class="btn submit"
-            type="submit"
-          >
-            REQUEST MY QUOTE
-          </button>
-
-
-        </form>
-
-
-        <p class="form-note">
-          After you submit your request, we'll review your project
-          and contact you within 48 hours to discuss the work and
-          next steps.
-        </p>
+        We'll review your request and contact you within 48 hours.
 
       </div>
 
@@ -322,8 +166,212 @@
 
   </div>
 
-</section>
 
+  <!-- QUOTE FORM -->
+
+  <div class="contact-card">
+
+    <h2>
+      Request a Quote
+    </h2>
+
+    <p>
+      Give us as much information as possible so we can
+      better understand your project.
+    </p>
+
+
+    <form
+      action="https://formsubmit.co/jandphandymanservices@yahoo.com"
+      method="POST"
+    >
+
+
+      <!-- FORM SETTINGS -->
+
+      <input
+        type="hidden"
+        name="_subject"
+        value="New J & P Handyman Quote Request"
+      >
+
+      <input
+        type="hidden"
+        name="_captcha"
+        value="false"
+      >
+
+      <input
+        type="hidden"
+        name="_template"
+        value="table"
+      >
+
+      <input
+        type="hidden"
+        name="_next"
+        value="https://whatisthetruthrudy-jfk.github.io/JP-Handyman-Website/thank-you.html"
+      >
+
+
+      <!-- AUTOMATIC CUSTOMER EMAIL -->
+
+      <input
+        type="hidden"
+        name="_autoresponse"
+        value="Thank you for contacting J & P Handyman Services! We received your project request and appreciate the opportunity to help. We will review your request and contact you within 48 hours to discuss your project and next steps. If you need immediate assistance, please call 609-240-8021."
+      >
+
+
+      <!-- CUSTOMER NAME -->
+
+      <input
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        required
+      >
+
+
+      <!-- PHONE -->
+
+      <input
+        type="tel"
+        name="phone"
+        placeholder="Phone Number"
+        required
+      >
+
+
+      <!-- EMAIL -->
+
+      <input
+        type="email"
+        name="email"
+        placeholder="Email Address"
+        required
+      >
+
+
+      <!-- PROJECT LOCATION -->
+
+      <input
+        type="text"
+        name="location"
+        placeholder="Project Address or Town"
+        required
+      >
+
+
+      <!-- SERVICE -->
+
+      <select
+        name="service"
+        required
+      >
+
+        <option value="">
+          What service do you need?
+        </option>
+
+        <option>
+          Toilet Repair & Replacement
+        </option>
+
+        <option>
+          Faucet Repair & Replacement
+        </option>
+
+        <option>
+          Drain Cleaning
+        </option>
+
+        <option>
+          Light Fixture Replacement
+        </option>
+
+        <option>
+          Outlet & Switch Replacement
+        </option>
+
+        <option>
+          Sheetrock Repair
+        </option>
+
+        <option>
+          Interior Painting
+        </option>
+
+        <option>
+          Tub & Shower Caulking
+        </option>
+
+        <option>
+          Blinds & Curtain Installation
+        </option>
+
+        <option>
+          Furniture Assembly
+        </option>
+
+        <option>
+          Appliance Repair
+        </option>
+
+        <option>
+          TV Installation
+        </option>
+
+        <option>
+          Dryer Vent Cleaning
+        </option>
+
+        <option>
+          Power Washing
+        </option>
+
+        <option>
+          Other
+        </option>
+
+      </select>
+
+
+      <!-- PROJECT DESCRIPTION -->
+
+      <textarea
+        name="project"
+        placeholder="Tell us about your project. Include the problem, what you would like done, and any other helpful details."
+        required
+      ></textarea>
+
+
+      <!-- SUBMIT -->
+
+      <button
+        class="btn submit"
+        type="submit"
+      >
+        REQUEST MY QUOTE
+      </button>
+
+    </form>
+
+
+    <p class="form-note">
+      After you submit your request, we'll review your project
+      and contact you within 48 hours to discuss the work and
+      next steps.
+    </p>
+
+  </div>
+
+</div>
+```
+
+  </div>
+
+</section>
 
 <!-- CALL TO ACTION -->
 
@@ -337,15 +385,19 @@
     Give us a call and let's talk about your project.
   </p>
 
-  <a
-    class="btn"
-    href="tel:6092408021"
-  >
-    CALL 609-240-8021
+<a
+class="btn"
+href="tel:6092408021"
+
+>
+
+```
+CALL 609-240-8021
+```
+
   </a>
 
 </section>
-
 
 <!-- FOOTER -->
 
@@ -353,13 +405,15 @@
 
   <div>
 
-    <strong>
-      J &amp; P Handyman Services
-    </strong>
+```
+<strong>
+  J &amp; P Handyman Services
+</strong>
 
-    <p>
-      Reliable. Professional. Done right.
-    </p>
+<p>
+  Reliable. Professional. Done right.
+</p>
+```
 
   </div>
 
@@ -369,7 +423,7 @@
 
 </footer>
 
+<script src="js/script.js"></script>
 
 </body>
 </html>
-```
