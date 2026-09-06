@@ -32,14 +32,13 @@ aria-expanded="false"
 
 >
 
-```
-<span></span>
-```
 
-```
+<span></span>
+
+
 <span></span>
 <span></span>
-```
+
 
   </button>
 
@@ -47,12 +46,11 @@ aria-expanded="false"
 
   <a class="brand" href="index.html">
 
-```
 <img
   src="images/J and P logo.png"
   alt="J & P Handyman Services logo"
 >
-```
+
 
   </a>
 
@@ -60,7 +58,7 @@ aria-expanded="false"
 
   <nav class="main-menu" id="mainMenu">
 
-```
+
 <a href="index.html">Home</a>
 
 <a href="about.html">About</a>
@@ -70,7 +68,7 @@ aria-expanded="false"
 <a href="services.html">Services</a>
 
 <a href="contact.html">Contact</a>
-```
+
 
   </nav>
 
@@ -87,7 +85,7 @@ aria-expanded="false"
 
   <div class="page-hero-inner">
 
-```
+
 <div class="eyebrow">
   LET'S GET STARTED
 </div>
@@ -100,7 +98,7 @@ aria-expanded="false"
   Tell us about your project and we'll review the details
   and contact you within 48 hours.
 </p>
-```
+
 
   </div>
 
@@ -114,7 +112,7 @@ aria-expanded="false"
 
   <div class="section-inner">
 
-```
+
 <div class="contact-wrap">
 
 
@@ -214,209 +212,189 @@ aria-expanded="false"
     -->
 
     <form
-      action="https://formsubmit.co/a8e003f83179af49d3eded9a2c557979 "
-      method="POST"
-    >
+  action="https://formsubmit.co/a8e003f83179af49d3eded9a2c557979"
+  method="POST"
+>
+
+  <!-- FORM SETTINGS -->
+
+<input
+type="hidden"
+name="_subject"
+value="New J & P Handyman Quote Request"
+
+>
+
+<input
+type="hidden"
+name="_template"
+value="table"
+
+>
+
+<input
+type="hidden"
+name="_next"
+value="https://jp-handyman.com/thank-you.html"
+
+>
+
+<input
+type="hidden"
+name="_autoresponse"
+value="Thank you for contacting J & P Handyman Services! We received your project request and appreciate the opportunity to help. We will review your request and contact you within 48 hours to discuss your project and next steps. If you need immediate assistance, please call 609-240-8021."
+
+>
+
+  <!-- CUSTOMER NAME -->
+
+<input
+type="text"
+name="name"
+placeholder="Your Name"
+aria-label="Your Name"
+autocomplete="name"
+required
+
+>
+
+  <!-- PHONE -->
+
+<input
+type="tel"
+name="phone"
+placeholder="Phone Number"
+aria-label="Phone Number"
+autocomplete="tel"
+required
+
+>
+
+  <!-- EMAIL -->
+
+<input
+type="email"
+name="email"
+placeholder="Email Address"
+aria-label="Email Address"
+autocomplete="email"
+required
+
+>
+
+  <!-- PROJECT LOCATION -->
+
+<input
+type="text"
+name="location"
+placeholder="Project Address or Town"
+aria-label="Project Address or Town"
+autocomplete="street-address"
+required
+
+>
+
+  <!-- SERVICE -->
+
+<select
+name="service"
+aria-label="Service Needed"
+required
+
+>
 
 
-      <!-- =========================
-           FORMSUBMIT SETTINGS
-      ========================= -->
+<option value="">
+  What service do you need?
+</option>
 
-      <!-- Email subject -->
+<option value="Toilet Repair & Replacement">
+  Toilet Repair & Replacement
+</option>
 
-      <input
-        type="hidden"
-        name="_subject"
-        value="New J & P Handyman Quote Request"
-      >
+<option value="Faucet Repair & Replacement">
+  Faucet Repair & Replacement
+</option>
 
+<option value="Drain Cleaning">
+  Drain Cleaning
+</option>
 
-      <!-- Disable FormSubmit captcha -->
+<option value="Light Fixture Replacement">
+  Light Fixture Replacement
+</option>
 
-      <input
-        type="hidden"
-        name="_template"
-        value="table"
-      >
+<option value="Outlet & Switch Replacement">
+  Outlet & Switch Replacement
+</option>
 
+<option value="Sheetrock Repair">
+  Sheetrock Repair
+</option>
 
-      <!-- Email layout -->
+<option value="Interior Painting">
+  Interior Painting
+</option>
 
-      <input
-        type="hidden"
-        name="_next"
-        value="https://jp-handyman-services.com/thank-you.html"
-      >
+<option value="Tub & Shower Caulking">
+  Tub & Shower Caulking
+</option>
 
+<option value="Blinds & Curtain Installation">
+  Blinds & Curtain Installation
+</option>
 
-      <!-- Redirect after successful submission -->
+<option value="Furniture Assembly">
+  Furniture Assembly
+</option>
 
-      <input
-        type="hidden"
-        name="_autoresponse"
-        value="Thank you for contacting J & P Handyman Services! We received your project request and appreciate the opportunity to help. We will review your request and contact you within 48 hours to discuss your project and next steps. If you need immediate assistance, please call 609-240-8021."
-      >
+<option value="Appliance Repair">
+  Appliance Repair
+</option>
 
+<option value="TV Installation">
+  TV Installation
+</option>
 
-      <!-- Automatic confirmation email to customer -->
+<option value="Dryer Vent Cleaning">
+  Dryer Vent Cleaning
+</option>
 
-      <input
-        type="hidden"
-        name="_autoresponse"
-        value="Thank you for contacting J & P Handyman Services! We received your project request and appreciate the opportunity to help. We will review your request and contact you within 48 hours to discuss your project and next steps. If you need immediate assistance, please call 609-240-8021."
-      >
+<option value="Power Washing">
+  Power Washing
+</option>
 
-
-      <!-- =========================
-           CUSTOMER INFORMATION
-      ========================= -->
-
-      <input
-        type="text"
-        name="name"
-        placeholder="Your Name"
-        aria-label="Your Name"
-        autocomplete="name"
-        required
-      >
-
-
-      <input
-        type="tel"
-        name="phone"
-        placeholder="Phone Number"
-        aria-label="Phone Number"
-        autocomplete="tel"
-        required
-      >
+<option value="Other">
+  Other
+</option>
 
 
-      <input
-        type="email"
-        name="email"
-        placeholder="Email Address"
-        aria-label="Email Address"
-        autocomplete="email"
-        required
-      >
+  </select>
+
+  <!-- PROJECT DESCRIPTION -->
+
+  <textarea
+    name="project"
+    placeholder="Tell us about your project. Include the problem, what you would like done, and any other helpful details."
+    aria-label="Project Description"
+    required
+  ></textarea>
+
+  <!-- SUBMIT -->
+
+<button
+class="btn submit"
+type="submit"
+
+>
 
 
-      <!-- =========================
-           PROJECT LOCATION
-      ========================= -->
-
-      <input
-        type="text"
-        name="location"
-        placeholder="Project Address or Town"
-        aria-label="Project Address or Town"
-        autocomplete="street-address"
-        required
-      >
+REQUEST MY QUOTE
 
 
-      <!-- =========================
-           SERVICE
-      ========================= -->
+  </button>
 
-      <select
-        name="service"
-        aria-label="Service Needed"
-        required
-      >
-
-        <option value="">
-          What service do you need?
-        </option>
-
-        <option value="Toilet Repair & Replacement">
-          Toilet Repair & Replacement
-        </option>
-
-        <option value="Faucet Repair & Replacement">
-          Faucet Repair & Replacement
-        </option>
-
-        <option value="Drain Cleaning">
-          Drain Cleaning
-        </option>
-
-        <option value="Light Fixture Replacement">
-          Light Fixture Replacement
-        </option>
-
-        <option value="Outlet & Switch Replacement">
-          Outlet & Switch Replacement
-        </option>
-
-        <option value="Sheetrock Repair">
-          Sheetrock Repair
-        </option>
-
-        <option value="Interior Painting">
-          Interior Painting
-        </option>
-
-        <option value="Tub & Shower Caulking">
-          Tub & Shower Caulking
-        </option>
-
-        <option value="Blinds & Curtain Installation">
-          Blinds & Curtain Installation
-        </option>
-
-        <option value="Furniture Assembly">
-          Furniture Assembly
-        </option>
-
-        <option value="Appliance Repair">
-          Appliance Repair
-        </option>
-
-        <option value="TV Installation">
-          TV Installation
-        </option>
-
-        <option value="Dryer Vent Cleaning">
-          Dryer Vent Cleaning
-        </option>
-
-        <option value="Power Washing">
-          Power Washing
-        </option>
-
-        <option value="Other">
-          Other
-        </option>
-
-      </select>
-
-
-      <!-- =========================
-           PROJECT DESCRIPTION
-      ========================= -->
-
-      <textarea
-        name="project"
-        placeholder="Tell us about your project. Include the problem, what you would like done, and any other helpful details."
-        aria-label="Project Description"
-        required
-      ></textarea>
-
-
-      <!-- =========================
-           SUBMIT BUTTON
-      ========================= -->
-
-      <button
-        class="btn submit"
-        type="submit"
-      >
-        REQUEST MY QUOTE
-      </button>
-
-    </form>
+</form>
 
 
     <p class="form-note">
@@ -428,7 +406,6 @@ aria-expanded="false"
   </div>
 
 </div>
-```
 
   </div>
 
@@ -454,9 +431,7 @@ href="tel:6092408021"
 
 >
 
-```
 CALL 609-240-8021
-```
 
   </a>
 
@@ -470,7 +445,6 @@ CALL 609-240-8021
 
   <div>
 
-```
 <strong>
   J &amp; P Handyman Services
 </strong>
@@ -478,7 +452,6 @@ CALL 609-240-8021
 <p>
   Reliable. Professional. Done right.
 </p>
-```
 
   </div>
 
