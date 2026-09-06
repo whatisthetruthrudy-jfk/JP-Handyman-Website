@@ -32,9 +32,14 @@ aria-expanded="false"
 
 >
 
+```
+<span></span>
+```
+
+```
 <span></span>
 <span></span>
-<span></span>
+```
 
   </button>
 
@@ -42,10 +47,12 @@ aria-expanded="false"
 
   <a class="brand" href="index.html">
 
+```
 <img
   src="images/J and P logo.png"
   alt="J & P Handyman Services logo"
 >
+```
 
   </a>
 
@@ -53,21 +60,25 @@ aria-expanded="false"
 
   <nav class="main-menu" id="mainMenu">
 
-  <a href="index.html">Home</a>
+```
+<a href="index.html">Home</a>
 
-  <a href="about.html">About</a>
+<a href="about.html">About</a>
 
-  <a href="faq.html">FAQ</a>
+<a href="faq.html">FAQ</a>
 
-  <a href="services.html">Services</a>
+<a href="services.html">Services</a>
 
-  <a href="contact.html">Contact</a>
+<a href="contact.html">Contact</a>
+```
 
   </nav>
 
 </header>
 
-<!-- CONTACT HERO -->
+<!-- =========================
+     CONTACT HERO
+========================= -->
 
 <section
   class="contact-hero"
@@ -76,6 +87,7 @@ aria-expanded="false"
 
   <div class="page-hero-inner">
 
+```
 <div class="eyebrow">
   LET'S GET STARTED
 </div>
@@ -88,21 +100,27 @@ aria-expanded="false"
   Tell us about your project and we'll review the details
   and contact you within 48 hours.
 </p>
+```
 
   </div>
 
 </section>
 
-<!-- CONTACT SECTION -->
+<!-- =========================
+     CONTACT SECTION
+========================= -->
 
 <section class="section">
 
   <div class="section-inner">
 
+```
 <div class="contact-wrap">
 
 
-  <!-- CONTACT INFORMATION -->
+  <!-- =========================
+       CONTACT INFORMATION
+  ========================= -->
 
   <div class="contact-card">
 
@@ -119,6 +137,9 @@ aria-expanded="false"
 
     <div class="contact-details">
 
+
+      <!-- PHONE -->
+
       <div class="detail">
 
         <strong>Phone</strong><br>
@@ -130,16 +151,20 @@ aria-expanded="false"
       </div>
 
 
+      <!-- EMAIL -->
+
       <div class="detail">
 
         <strong>Email</strong><br>
 
-        <a href="mailto:jandphandymanservices@yahoo.com">
+        <span>
           jandphandymanservices@yahoo.com
-        </a>
+        </span>
 
       </div>
 
+
+      <!-- SERVICE AREA -->
 
       <div class="detail">
 
@@ -150,6 +175,8 @@ aria-expanded="false"
       </div>
 
 
+      <!-- RESPONSE TIME -->
+
       <div class="detail">
 
         <strong>Response Time</strong><br>
@@ -158,12 +185,15 @@ aria-expanded="false"
 
       </div>
 
+
     </div>
 
   </div>
 
 
-  <!-- QUOTE FORM -->
+  <!-- =========================
+       QUOTE FORM
+  ========================= -->
 
   <div class="contact-card">
 
@@ -177,13 +207,23 @@ aria-expanded="false"
     </p>
 
 
+    <!--
+      FORM SUBMIT
+      All quote requests are sent to:
+      jandphandymanservices@yahoo.com
+    -->
+
     <form
       action="https://formsubmit.co/jandphandymanservices@yahoo.com"
       method="POST"
     >
 
 
-      <!-- FORM SETTINGS -->
+      <!-- =========================
+           FORMSUBMIT SETTINGS
+      ========================= -->
+
+      <!-- Email subject -->
 
       <input
         type="hidden"
@@ -191,17 +231,26 @@ aria-expanded="false"
         value="New J & P Handyman Quote Request"
       >
 
+
+      <!-- Disable FormSubmit captcha -->
+
       <input
         type="hidden"
         name="_captcha"
         value="false"
       >
 
+
+      <!-- Email layout -->
+
       <input
         type="hidden"
         name="_template"
         value="table"
       >
+
+
+      <!-- Redirect after successful submission -->
 
       <input
         type="hidden"
@@ -210,7 +259,7 @@ aria-expanded="false"
       >
 
 
-      <!-- AUTOMATIC CUSTOMER EMAIL -->
+      <!-- Automatic confirmation email to customer -->
 
       <input
         type="hidden"
@@ -219,50 +268,61 @@ aria-expanded="false"
       >
 
 
-      <!-- CUSTOMER NAME -->
+      <!-- =========================
+           CUSTOMER INFORMATION
+      ========================= -->
 
       <input
         type="text"
         name="name"
         placeholder="Your Name"
+        aria-label="Your Name"
+        autocomplete="name"
         required
       >
 
-
-      <!-- PHONE -->
 
       <input
         type="tel"
         name="phone"
         placeholder="Phone Number"
+        aria-label="Phone Number"
+        autocomplete="tel"
         required
       >
 
-
-      <!-- EMAIL -->
 
       <input
         type="email"
         name="email"
         placeholder="Email Address"
+        aria-label="Email Address"
+        autocomplete="email"
         required
       >
 
 
-      <!-- PROJECT LOCATION -->
+      <!-- =========================
+           PROJECT LOCATION
+      ========================= -->
 
       <input
         type="text"
         name="location"
         placeholder="Project Address or Town"
+        aria-label="Project Address or Town"
+        autocomplete="street-address"
         required
       >
 
 
-      <!-- SERVICE -->
+      <!-- =========================
+           SERVICE
+      ========================= -->
 
       <select
         name="service"
+        aria-label="Service Needed"
         required
       >
 
@@ -270,79 +330,84 @@ aria-expanded="false"
           What service do you need?
         </option>
 
-        <option>
+        <option value="Toilet Repair & Replacement">
           Toilet Repair & Replacement
         </option>
 
-        <option>
+        <option value="Faucet Repair & Replacement">
           Faucet Repair & Replacement
         </option>
 
-        <option>
+        <option value="Drain Cleaning">
           Drain Cleaning
         </option>
 
-        <option>
+        <option value="Light Fixture Replacement">
           Light Fixture Replacement
         </option>
 
-        <option>
+        <option value="Outlet & Switch Replacement">
           Outlet & Switch Replacement
         </option>
 
-        <option>
+        <option value="Sheetrock Repair">
           Sheetrock Repair
         </option>
 
-        <option>
+        <option value="Interior Painting">
           Interior Painting
         </option>
 
-        <option>
+        <option value="Tub & Shower Caulking">
           Tub & Shower Caulking
         </option>
 
-        <option>
+        <option value="Blinds & Curtain Installation">
           Blinds & Curtain Installation
         </option>
 
-        <option>
+        <option value="Furniture Assembly">
           Furniture Assembly
         </option>
 
-        <option>
+        <option value="Appliance Repair">
           Appliance Repair
         </option>
 
-        <option>
+        <option value="TV Installation">
           TV Installation
         </option>
 
-        <option>
+        <option value="Dryer Vent Cleaning">
           Dryer Vent Cleaning
         </option>
 
-        <option>
+        <option value="Power Washing">
           Power Washing
         </option>
 
-        <option>
+        <option value="Other">
           Other
         </option>
 
       </select>
 
 
-      <!-- PROJECT DESCRIPTION -->
+      <!-- =========================
+           PROJECT DESCRIPTION
+      ========================= -->
 
       <textarea
         name="project"
         placeholder="Tell us about your project. Include the problem, what you would like done, and any other helpful details."
+        aria-label="Project Description"
         required
       ></textarea>
 
 
-      <!-- SUBMIT -->
+      <!-- =========================
+           SUBMIT BUTTON
+      ========================= -->
 
       <button
         class="btn submit"
@@ -363,12 +428,15 @@ aria-expanded="false"
   </div>
 
 </div>
+```
 
   </div>
 
 </section>
 
-<!-- CALL TO ACTION -->
+<!-- =========================
+     CALL TO ACTION
+========================= -->
 
 <section class="band">
 
@@ -386,18 +454,23 @@ href="tel:6092408021"
 
 >
 
+```
 CALL 609-240-8021
+```
 
   </a>
 
 </section>
 
-<!-- FOOTER -->
+<!-- =========================
+     FOOTER
+========================= -->
 
 <footer>
 
   <div>
 
+```
 <strong>
   J &amp; P Handyman Services
 </strong>
@@ -405,6 +478,7 @@ CALL 609-240-8021
 <p>
   Reliable. Professional. Done right.
 </p>
+```
 
   </div>
 
@@ -413,6 +487,10 @@ CALL 609-240-8021
   </a>
 
 </footer>
+
+<!-- =========================
+     MENU SCRIPT
+========================= -->
 
 <script src="js/script.js"></script>
 
