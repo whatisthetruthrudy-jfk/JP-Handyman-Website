@@ -1,3 +1,4 @@
+html
 <!doctype html>
 <html lang="en">
 
@@ -5,17 +6,33 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- SEO -->
+  <title>Handyman Services in Central Jersey | J & P Handyman Services</title>
+
   <meta
     name="description"
-    content="Professional handyman services including repairs, installations, maintenance and home improvements throughout Central Jersey."
+    content="Explore J & P Handyman Services in Central Jersey. Licensed, bonded and insured handyman services including home repairs, installations, furniture assembly, painting, TV mounting and more."
   >
 
-  <title>Services | J &amp; P Handyman Services</title>
+  <meta name="robots" content="index, follow">
+
+  <link rel="canonical" href="https://jp-handyman.com/services.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Handyman Services in Central Jersey | J & P">
+  <meta
+    property="og:description"
+    content="Licensed, bonded and insured handyman services including repairs, installations, painting, furniture assembly, TV mounting and more."
+  >
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jp-handyman.com/services.html">
 
   <link rel="stylesheet" href="css/style.css">
 </head>
 
+
 <body>
+
 
 <!-- =========================
      HEADER
@@ -31,6 +48,7 @@
     type="button"
     aria-label="Open menu"
     aria-expanded="false"
+    aria-controls="mainMenu"
   >
     <span></span>
     <span></span>
@@ -40,11 +58,15 @@
 
   <!-- CENTERED LOGO -->
 
-  <a class="brand" href="index.html">
+  <a
+    class="brand"
+    href="index.html"
+    aria-label="J & P Handyman Services home"
+  >
 
     <img
       src="images/J and P logo.png"
-      alt="J &amp; P Handyman Services logo"
+      alt="J & P Handyman Services"
     >
 
   </a>
@@ -52,7 +74,11 @@
 
   <!-- MENU -->
 
-  <nav class="main-menu" id="mainMenu">
+  <nav
+    class="main-menu"
+    id="mainMenu"
+    aria-label="Main navigation"
+  >
 
     <a href="index.html">Home</a>
 
@@ -60,7 +86,7 @@
 
     <a href="faq.html">FAQ</a>
 
-    <a href="services.html">Services</a>
+    <a href="services.html" aria-current="page">Services</a>
 
     <a href="contact.html">Contact</a>
 
@@ -81,16 +107,59 @@
   <div class="page-hero-inner">
 
     <div class="eyebrow">
-      Home Repairs &amp; Improvements
+      LICENSED • BONDED • INSURED
     </div>
 
+
     <h1>
-      Our Services
+      Handyman Services in Central Jersey
     </h1>
 
+
     <p>
-      From everyday repairs to installation and improvement projects,
-      we've got your to-do list covered.
+      Reliable repairs, installations, maintenance and
+      home-improvement services for the projects on your
+      to-do list.
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     SERVICES INTRO
+========================= -->
+
+<section class="section">
+
+  <div class="section-inner">
+
+    <h2 class="section-title">
+      Professional Home Repair &amp; Improvement Services
+    </h2>
+
+
+    <p class="section-lead">
+      J &amp; P Handyman Services is a licensed, bonded and insured
+      handyman serving customers throughout Central Jersey.
+      We help homeowners with a wide range of repairs,
+      installations, maintenance and improvement projects.
+    </p>
+
+
+    <p>
+      Whether you have a small repair that needs attention,
+      something that needs to be installed or a larger
+      home-improvement project, we're here to help.
+    </p>
+
+
+    <p>
+      If you don't see your particular project listed below,
+      <a href="contact.html">contact us</a>.
+      Handyman projects can vary, and we'll be happy to
+      discuss what you need.
     </p>
 
   </div>
@@ -115,21 +184,23 @@
 
         <img
           src="images/gallery/toilet-repair.jpg"
-          alt="Newly installed toilet in a bathroom"
+          alt="Toilet repair and replacement service in a residential bathroom"
+          loading="lazy"
         >
 
         <div class="body">
 
-          <h3>
+          <h2>
             Toilet Repair &amp; Replacement
-          </h3>
+          </h2>
 
           <p>
-            Modern toilet repair and replacement for bathrooms.
+            Help with common toilet repairs, replacements
+            and installation needs in residential bathrooms.
           </p>
 
           <a href="contact.html">
-            Request this service →
+            Request toilet service →
           </a>
 
         </div>
@@ -143,21 +214,23 @@
 
         <img
           src="images/gallery/faucet.jpg"
-          alt="Kitchen faucet"
+          alt="Kitchen faucet repair and replacement service"
+          loading="lazy"
         >
 
         <div class="body">
 
-          <h3>
+          <h2>
             Faucet Repair &amp; Replacement
-          </h3>
+          </h2>
 
           <p>
-            Repair or replace leaking and outdated faucets.
+            Repair or replace leaking, damaged or outdated
+            household faucets.
           </p>
 
           <a href="contact.html">
-            Request this service →
+            Request faucet service →
           </a>
 
         </div>
@@ -171,21 +244,23 @@
 
         <img
           src="images/gallery/j&pdrain-cleaning.jpg"
-          alt="Plumber cleaning a clogged drain"
+          alt="Household drain cleaning service for a clogged or slow drain"
+          loading="lazy"
         >
 
         <div class="body">
 
-          <h3>
+          <h2>
             Drain Cleaning
-          </h3>
+          </h2>
 
           <p>
-            Help with slow, clogged and backed-up household drains.
+            Help with slow, clogged and backed-up household
+            drains.
           </p>
 
           <a href="contact.html">
-            Request this service →
+            Request drain service →
           </a>
 
         </div>
@@ -199,21 +274,23 @@
 
         <img
           src="images/gallery/j&p-light-fixture.jpg"
-          alt="Electrician repairing a light fixture"
+          alt="Household light fixture installation and replacement"
+          loading="lazy"
         >
 
         <div class="body">
 
-          <h3>
+          <h2>
             Light Fixture Replacement
-          </h3>
+          </h2>
 
           <p>
-            Upgrade and replace household light fixtures.
+            Replace or upgrade household light fixtures
+            where permitted and appropriate.
           </p>
 
           <a href="contact.html">
-            Request this service →
+            Request light fixture service →
           </a>
 
         </div>
@@ -227,21 +304,23 @@
 
         <img
           src="images/gallery/outlet.jpeg"
-          alt="Electrician repairing an electrical outlet"
+          alt="Electrical outlet and switch replacement service"
+          loading="lazy"
         >
 
         <div class="body">
 
-          <h3>
+          <h2>
             Outlet &amp; Switch Replacement
-          </h3>
+          </h2>
 
           <p>
-            Replace worn, damaged or outdated switches and outlets.
+            Replace worn, damaged or outdated switches
+            and electrical outlets where permitted.
           </p>
 
           <a href="contact.html">
-            Request this service →
+            Request outlet or switch service →
           </a>
 
         </div>
@@ -255,21 +334,23 @@
 
         <img
           src="https://images.pexels.com/photos/4981812/pexels-photo-4981812.jpeg?auto=compress&cs=tinysrgb&w=1200"
-          alt="Worker repairing drywall"
+          alt="Drywall and Sheetrock repair service for damaged walls"
+          loading="lazy"
         >
 
         <div class="body">
 
-          <h3>
+          <h2>
             Sheetrock Repair
-          </h3>
+          </h2>
 
           <p>
-            Patch holes, repair damage and prepare walls for paint.
+            Patch holes, repair damaged Sheetrock and prepare
+            walls for painting.
           </p>
 
           <a href="contact.html">
-            Request this service →
+            Request Sheetrock service →
           </a>
 
         </div>
@@ -283,21 +364,23 @@
 
         <img
           src="https://images.pexels.com/photos/5493650/pexels-photo-5493650.jpeg?auto=compress&cs=tinysrgb&w=1200"
-          alt="Professional painters working on an interior wall"
+          alt="Interior wall painting and home improvement service"
+          loading="lazy"
         >
 
         <div class="body">
 
-          <h3>
+          <h2>
             Interior Painting
-          </h3>
+          </h2>
 
           <p>
-            Fresh coats, touch-ups and room transformations.
+            Fresh coats, touch-ups and room transformations
+            for residential interiors.
           </p>
 
           <a href="contact.html">
-            Request this service →
+            Request painting service →
           </a>
 
         </div>
@@ -311,21 +394,23 @@
 
         <img
           src="images/gallery/caulking.webp"
-          alt="Modern bathroom sealing area"
+          alt="Tub and shower caulking and bathroom sealing service"
+          loading="lazy"
         >
 
         <div class="body">
 
-          <h3>
+          <h2>
             Tub &amp; Shower Caulking
-          </h3>
+          </h2>
 
           <p>
-            Remove worn caulk and apply a clean new seal.
+            Remove worn caulk and apply a clean new seal
+            around tubs and showers.
           </p>
 
           <a href="contact.html">
-            Request this service →
+            Request caulking service →
           </a>
 
         </div>
@@ -339,21 +424,23 @@
 
         <img
           src="https://images.pexels.com/photos/8787526/pexels-photo-8787526.jpeg?auto=compress&cs=tinysrgb&w=1200"
-          alt="Worker installing window blinds"
+          alt="Blinds and curtain rod installation service"
+          loading="lazy"
         >
 
         <div class="body">
 
-          <h3>
+          <h2>
             Blinds &amp; Curtain Installation
-          </h3>
+          </h2>
 
           <p>
-            Install blinds, curtain rods and window treatments.
+            Install blinds, curtain rods and other
+            residential window treatments.
           </p>
 
           <a href="contact.html">
-            Request this service →
+            Request window treatment service →
           </a>
 
         </div>
@@ -367,21 +454,23 @@
 
         <img
           src="images/gallery/furniture-assembly.jpg"
-          alt="Assembling furniture"
+          alt="Professional furniture assembly service"
+          loading="lazy"
         >
 
         <div class="body">
 
-          <h3>
+          <h2>
             Furniture Assembly
-          </h3>
+          </h2>
 
           <p>
-            Professional assembly for ready-to-assemble furniture.
+            Professional assembly for ready-to-assemble
+            furniture and household items.
           </p>
 
           <a href="contact.html">
-            Request this service →
+            Request furniture assembly →
           </a>
 
         </div>
@@ -395,21 +484,23 @@
 
         <img
           src="images/gallery/appliance-repair.jpg"
-          alt="Technician repairing a household appliance"
+          alt="Household appliance repair service"
+          loading="lazy"
         >
 
         <div class="body">
 
-          <h3>
+          <h2>
             Appliance Repair
-          </h3>
+          </h2>
 
           <p>
-            Help with common household appliance repair needs.
+            Help with common household appliance repair
+            and maintenance needs.
           </p>
 
           <a href="contact.html">
-            Request this service →
+            Request appliance service →
           </a>
 
         </div>
@@ -423,21 +514,23 @@
 
         <img
           src="https://images.pexels.com/photos/14614673/pexels-photo-14614673.jpeg?auto=compress&cs=tinysrgb&w=1200"
-          alt="Wall mounted television installation"
+          alt="Professional wall mounted TV installation service"
+          loading="lazy"
         >
 
         <div class="body">
 
-          <h3>
+          <h2>
             TV Installation
-          </h3>
+          </h2>
 
           <p>
-            Clean, secure wall mounting for televisions.
+            Clean, secure wall mounting and installation
+            for televisions.
           </p>
 
           <a href="contact.html">
-            Request this service →
+            Request TV installation →
           </a>
 
         </div>
@@ -451,21 +544,23 @@
 
         <img
           src="images/gallery/vent.jpg"
-          alt="Professional dryer vent cleaning"
+          alt="Professional dryer vent cleaning service"
+          loading="lazy"
         >
 
         <div class="body">
 
-          <h3>
+          <h2>
             Dryer Vent Cleaning
-          </h3>
+          </h2>
 
           <p>
-            Remove lint buildup and improve dryer airflow.
+            Remove lint buildup and help improve dryer
+            airflow and efficiency.
           </p>
 
           <a href="contact.html">
-            Request this service →
+            Request dryer vent service →
           </a>
 
         </div>
@@ -479,21 +574,23 @@
 
         <img
           src="https://images.pexels.com/photos/5652626/pexels-photo-5652626.jpeg?auto=compress&cs=tinysrgb&w=1200"
-          alt="Professional house power washing"
+          alt="Residential exterior power washing service"
+          loading="lazy"
         >
 
         <div class="body">
 
-          <h3>
+          <h2>
             Power Washing
-          </h3>
+          </h2>
 
           <p>
-            Clean suitable exterior surfaces, patios and walkways.
+            Clean suitable exterior surfaces, patios,
+            walkways and other outdoor areas.
           </p>
 
           <a href="contact.html">
-            Request this service →
+            Request power washing →
           </a>
 
         </div>
@@ -509,21 +606,108 @@
 
 
 <!-- =========================
+     AEO SECTION
+========================= -->
+
+<section class="section">
+
+  <div class="section-inner">
+
+    <h2 class="section-title">
+      Common Handyman Service Questions
+    </h2>
+
+
+    <div class="mission">
+
+      <h3>
+        What types of handyman services does J &amp; P provide?
+      </h3>
+
+      <p>
+        J &amp; P Handyman Services provides a variety of
+        residential handyman services, including repairs,
+        replacements, installations, painting, furniture
+        assembly, TV installation, dryer vent cleaning,
+        power washing and other home-improvement projects.
+      </p>
+
+
+      <h3>
+        Do you handle small home repairs?
+      </h3>
+
+      <p>
+        Yes. Small home repairs and improvement projects
+        are an important part of handyman services. Contact
+        us and let us know what needs to be done.
+      </p>
+
+
+      <h3>
+        Do you offer furniture assembly?
+      </h3>
+
+      <p>
+        Yes. J &amp; P offers professional assembly for
+        ready-to-assemble furniture and household items.
+      </p>
+
+
+      <h3>
+        Do you install TVs?
+      </h3>
+
+      <p>
+        Yes. We provide television wall-mounting and
+        installation services.
+      </p>
+
+
+      <h3>
+        Are J &amp; P Handyman Services licensed, bonded and insured?
+      </h3>
+
+      <p>
+        Yes. J &amp; P Handyman Services is licensed,
+        bonded and insured.
+      </p>
+
+
+      <p>
+        Have a project that isn't listed above?
+        <a href="contact.html">
+          Contact J &amp; P Handyman Services
+        </a>
+        and tell us what you need.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
      CTA
 ========================= -->
 
 <section class="band">
 
   <h2>
-    No job too small.
+    No Job Too Small.
   </h2>
 
+
   <p>
-    Tell us what you need and we'll help you figure out the next step.
+    Tell us what you need and we'll help you figure
+    out the next step.
   </p>
 
+
   <a class="btn" href="contact.html">
-    Request a Quote
+    REQUEST A QUOTE
   </a>
 
 </section>
@@ -541,17 +725,65 @@
       J &amp; P Handyman Services
     </strong>
 
+
+    <p>
+      Licensed • Bonded • Insured
+    </p>
+
+
     <p>
       Reliable. Professional. Done right.
     </p>
 
   </div>
 
+
   <a href="tel:6092408021">
     609-240-8021
   </a>
 
 </footer>
+
+
+<!-- =========================
+     STRUCTURED DATA
+========================= -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://jp-handyman.com/#business",
+  "name": "J & P Handyman Services",
+  "url": "https://jp-handyman.com/",
+  "telephone": "+1-609-240-8021",
+  "image": "https://jp-handyman.com/images/J%20and%20P%20logo.png",
+  "description": "Licensed, bonded and insured handyman services including home repairs, installations, maintenance and home improvements throughout Central Jersey.",
+  "areaServed": {
+    "@type": "Place",
+    "name": "Central Jersey"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Handyman Services",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "J & P Handyman Services",
+    "url": "https://jp-handyman.com/"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Central Jersey"
+  },
+  "serviceType": "Residential Handyman Services"
+}
+</script>
 
 
 <!-- =========================
